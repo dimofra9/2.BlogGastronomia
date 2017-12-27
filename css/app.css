@@ -34,7 +34,19 @@
 
 /*clase de busqueda*/
 #busqueda {
-	background: 
+	background-color: blanchedalmond;
+	
 }
 
 /*clase de contenido*/
+.contenido {
+	background-color: lightgreen;
+}
+
+.comentarios {
+	border-top: solid 2px white;
+}
+
+.usuario {
+	background-color: lightgreen;
+}

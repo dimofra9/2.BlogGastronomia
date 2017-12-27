@@ -6,6 +6,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/app.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
 	<title>Blog de Gastronomía</title>
@@ -17,10 +18,10 @@
 	
 		<div class="row contenedor">
 		
-			<header class="column small-12 medium-12 large-12">
+			<header class="column medium-12 large-12 hide-for-small-only margin-top-1">
 				<div class="row">
 					<div class="column small-4" id="encabezado">
-						<div class="nombre"><h2>Tipico Santandereano</h2></div>
+						<div class="nombre"><h4>Tipico Santandereano</h4></div>
 						<div class="slogan"><strong>Lo Arrecho Del Sabor En Tu Boca</strong></div>
 					</div>
 				</div>			
@@ -30,24 +31,168 @@
 			
 		<div class="row contenedor">
 		
-			<section class="column small-4 medium-4 large-4" id="busqueda">
-				<div>buscador</div>
-				<div>navegador</div>
-				<div>favoritos</div>
-				<div>historial</div>	
+			<section class="column medium-5 large-4 hide-for-small-only margin-top-1">
+				
+				<aside class="card padding-1" id="busqueda">
+				
+					<div class="row">
+						<div class="buscador column medium-12">
+							<form class="buscador form-inline">
+								<div class="input-group">																				
+									<input class="form-control" type="text">
+									<div class="">
+										<button type="submit" class="button fi-magnifying-glass"></button>
+									</div>
+								</div>
+							</form>	
+						</div>	
+					</div>								
+
+					<div>navegador</div>
+					<div>favoritos</div>
+					<div>historial</div>
+					
+				</aside>			
+					
 			</section >
 		
-			<section class="column small-8 medium-8 large-8" id="contendio">
-				contenido
+			<section class="column small-12 medium-7 large-8 margin-top-1">
+			
+				<article class="card padding-1 contenido">
+				
+					<div class="row">
+						
+						<div class="column small-12">
+							<h4>Pepitoria Santandereana</h4>
+							<img src="img/pepitoria-2.jpg">
+							<p class="text-justify margin-top-1">
+								La pepitoria santandereana, como su nombre lo indica es típico de los santanderes (norte y sur), sin embargo en algunas regiones del país se ha intentado copiar este plato pero con algunas variaciones como por ejemplo prepararlo como una sopa, o con macarroncitos pero el original es con arroz, como verán en la receta que compartiré, que les aseguro es la más deliciosa.<br><br>
+								Puede ser que a muchas personas no les parezca agradable por los ingredientes que se utilizan para su preparación, pero al probarla quedaran encantados con su exquisito sabor.<br><br>
+								Tiene como ingredientes: sangre de un cabro, menudo de un cabro (riñón, hígado, corazón, etc.), tripas de un cabro, 8 tallos de cebolla larga, picados, 2 cebollas cabezonas, 1 cucharada de pimienta, 2 tomates, 1 pimentón, ½ cucharada de cominos, 1 cucharada de achiote o color, 1 taza de aceite, salsa de soja, sal al gusto, 1 libra arroz previamente preparado.<br><br>
+								Y su preparación es de la siguiente forma: se lavan muy bien las tripas  por fuera y por dentro con jabón azul y agua,  se enjuagan muy bien y se frotan con abundante limón y por último se frotan con abundante cebolla larga.<br><br>
+								El menudo se lava con abundante agua, se le frota limón y por último se le frota cebolla larga. Se llevan a una olla con agua que cubra todo y se dejan hervir, se retiran del agua y se pica todo finamente.<br><br>
+								En una sartén se sofríen la cebolla, los ajos, los tomates y el pimentón finamente picados, se le agrega pimienta, comino, achiote y sal al gusto, después se añade las tripas, el menudo y la sangre desmenuzada sobre el guiso y se sigue revolviendo por 15 minutos aproximadamente, después se agrega el arroz por porciones,  sin dejar de revolver agregar la salsa de soja, hasta que el arroz tome el color de la mezcla.<br><br>
+								La pepitoria se sirve con cabrito, yuca frita o patacones y un delicioso guacamole.<br><br>
+								¡Disfrútenlo!
+							</p>
+						</div>
+						
+						<div class="comentarios column small-12 padding-top-1">
+							<div>Escribe tus comentarios:</div>
+							<div>
+								<label>
+									<div><textarea class="margin-bottom-0"></textarea></div>
+									<div class="text-right"><button type="submit" name="enviar" class="button margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
+								</label>													
+							</div>                  		
+						</div>	
+						
+					</div>
+					
+					<div class="usuario card">
+					
+						<div class="row">
+							<div class="column small-2 align-middle margin-horizontal-0">
+								<img src="img/mujer.png" class="comentario-img">
+							</div>
+							<div class="column small-10 align-self-middle margin-horizontal-0">Tata28: Que gran post, aprendi mucho sobre la pepitoria santandereana</div>
+						</div>
+					
+					</div>
+					
+					<div class="usuario card">
+					
+						<div class="row">
+							<div class="column small-2 align-middle margin-horizontal-0">
+								<img src="img/hombre.png" class="comentario-img">
+							</div>
+							<div class="column small-10 align-self-middle margin-horizontal-0">Diego82: Que gran post, aprendi mucho sobre la pepitoria santandereana</div>
+						</div>
+					
+					</div>	
+					
+					<div class="usuario card">
+					
+						<div class="row">
+							<div class="column small-2 align-middle margin-horizontal-0">
+								<img src="img/mujer.png" class="comentario-img">
+							</div>
+							<div class="column small-10 align-self-middle margin-horizontal-0">Sofia01: Que gran post, aprendi mucho sobre la pepitoria santandereana</div>
+						</div>
+					
+					</div>					
+					
+				</article>
+				
+				<article class="card padding-1 contenido">
+					
+					<div class="row">
+
+						<div class="column small-12">							
+							<h4>Mute Santandereano</h4>
+							<img src="img/mute-santandereano.jpg">
+							<p class="text-justify margin-top-1">
+								El mute santandereano es una sopa tradicional colombiana del departamento de Santander situado en la parte centro-norte del país. Esta es una sopa muy espesa y con muchos ingredientes. Está cargada de carne, verduras, frijoles y pasta. Usted realmente no necesita nada más para tener una comida completa, pero a mí me gusta servir esta sopa con aguacate, arepa o arroz blanco!<br><br>
+								Hay muchas variaciones de mute, pero por lo general se hace con carne de res, costillas de res, carne de cerdo, callo (tripa o mondongo), pasta, maíz, papas, calabaza, garbanzo, frijol canario, y zanahorias, y sazonado con cebollas, cebolla larga y ajo, entre otras posibilidades.<br><br>
+								Este es uno de esos platos que usted puede amar u odiar. La tripa o callo es uno de esos ingredientes que podrían poner un freno a su apetito. Yo no soy un gran fan de el callo, pero me gusta añadirlo a la sopa para el sabor, simplemente desecho la tripa y luego me como todo lo demás. Pero, si realmente odias este ingrediente, lo pueden omitir y utilizar el resto de los ingredientes en la receta. Sin embargo, cuando los callos son preparados y bien, le dan un delicioso sabor a la las sopas. En cuanto a la pasta, he utilizado los codos, pero usted puede utilizar su pasta favorita!<br><br>
+								¡Disfrútenlo!
+							</p>							
+						</div>
+						
+					</div>
+					
+					<div class="row">
+						
+						<div class="comentarios column small-12 padding-top-1">
+							<div>Escribe tus comentarios:</div>
+							<div>
+								<label>
+									<div><textarea class="margin-bottom-0"></textarea></div>
+									<div class="text-right"><button type="submit" name="enviar" class="button margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
+								</label>													
+							</div>                  		
+						</div>
+						
+					</div>
+					
+					<div class="usuario card">
+					
+						<div class="row">
+							<div class="column small-2 align-middle margin-horizontal-0">
+								<img src="img/mujer.png" class="comentario-img">
+							</div>
+							<div class="column small-10 align-self-middle margin-horizontal-0">Tata28: Que gran post, aprendi mucho sobre el mute santandereano</div>
+						</div>
+					
+					</div>
+					
+					<div class="usuario card">
+					
+						<div class="row">
+							<div class="column small-2 align-middle margin-horizontal-0">
+								<img src="img/hombre.png" class="comentario-img">
+							</div>
+							<div class="column small-10 align-self-middle margin-horizontal-0">Diego82: Que gran post, aprendi mucho sobre el mute santandereano</div>
+						</div>
+					
+					</div>	
+					
+					<div class="usuario card">
+					
+						<div class="row">
+							<div class="column small-2 align-middle margin-horizontal-0">
+								<img src="img/mujer.png" class="comentario-img">
+							</div>
+							<div class="column small-10 align-self-middle margin-horizontal-0">Sofia01: Que gran post, aprendi mucho sobre el mute santandereano</div>
+						</div>
+					
+					</div>
+					
+				</article>			
+				
 			</section>			
 			
-		</div>	
-
-			
-
-
-
-		
+		</div>			
 		
 	</div>
 	
