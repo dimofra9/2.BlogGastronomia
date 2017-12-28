@@ -18,7 +18,7 @@
 	
 		<div class="row contenedor">
 		
-			<header class="column medium-12 large-12 hide-for-small-only margin-top-1">
+			<header class="column medium-12 large-12 hide-for-small-only encabezado padding-vertical-1">
 				<div class="row">
 					<div class="column small-4" id="encabezado">
 						<div class="nombre"><h4>Tipico Santandereano</h4></div>
@@ -29,28 +29,54 @@
 			
 		</div>
 			
-		<div class="row contenedor">
+		<div class="row contenedor secciones">
 		
 			<section class="column medium-5 large-4 hide-for-small-only margin-top-1">
 				
-				<aside class="card padding-1" id="busqueda">
-				
-					<div class="row">
-						<div class="buscador column medium-12">
-							<form class="buscador form-inline">
-								<div class="input-group">																				
-									<input class="form-control" type="text">
-									<div class="">
-										<button type="submit" class="button fi-magnifying-glass"></button>
-									</div>
-								</div>
-							</form>	
-						</div>	
-					</div>								
+				<aside class="card padding-1" id="busqueda" style="color: forestgreen">				
 
-					<div>navegador</div>
-					<div>favoritos</div>
-					<div>historial</div>
+					<form class="buscador">
+						<div class="input-group">																				
+							<input class="form-control" type="text">
+							<div class="">
+								<button type="submit" class="success button fi-magnifying-glass"></button>
+							</div>
+						</div>
+					</form>								
+					
+					<nav>
+						<ul class="vertical menu align-center">
+							<li><a class="hollow button expanded success" href="#">Inicio</a></li>
+							<li><a class="hollow button expanded success" href="#">Mi plato perfecto</a></li>
+							<li><a class="hollow button expanded success" href="#">Mis recetas</a></li>	
+						</ul>
+					</nav>
+					<br>
+					
+					<div>
+						<legend>Favoritos:</legend>
+						<div class="row margin-bottom-0">
+							<div class="column small-4"><a href=""><img src="img/arepa-santandereana.jpg" class="thumbnail"></a></div>
+							<div class="column small-4"><a href=""><img src="img/cabrito-santandereano.jpg" class="thumbnail"></a></div>
+							<div class="column small-4"><a href=""><img src="img/carne-oreada.jpg" class="thumbnail"></a></div>
+						</div>
+						<br>
+						<div class="row margin-top-0">
+							<div class="column small-4"><a href=""><img src="img/hormiga-culona.jpg" class="thumbnail"></a></div>
+							<div class="column small-4"><a href=""><img src="img/mute-santandereano-2.jpg" class="thumbnail"></a></div>
+							<div class="column small-4"><a href=""><img src="img/pepitoria.jpg" class="thumbnail"></a></div>
+						</div>
+					</div>
+					<br>
+					
+					<div>
+						<legend>Historial:</legend>
+						<ul class="vertical menu">
+							<li><a href="#" style="color: forestgreen">Pepitoria Santandereana</a></li>
+							<li><a href="#" style="color: forestgreen">Mute Santandereano</a></li>
+							<li><a href="#" style="color: forestgreen">Otros</a></li>	
+						</ul>  
+					</div>
 					
 				</aside>			
 					
@@ -64,6 +90,7 @@
 						
 						<div class="column small-12">
 							<h4>Pepitoria Santandereana</h4>
+							<strong style="color: forestgreen">27/12/2017, Bucaramanga</strong>
 							<img src="img/pepitoria-2.jpg">
 							<p class="text-justify margin-top-1">
 								La pepitoria santandereana, como su nombre lo indica es típico de los santanderes (norte y sur), sin embargo en algunas regiones del país se ha intentado copiar este plato pero con algunas variaciones como por ejemplo prepararlo como una sopa, o con macarroncitos pero el original es con arroz, como verán en la receta que compartiré, que les aseguro es la más deliciosa.<br><br>
@@ -77,17 +104,15 @@
 							</p>
 						</div>
 						
-						<div class="comentarios column small-12 padding-top-1">
-							<div>Escribe tus comentarios:</div>
-							<div>
-								<label>
-									<div><textarea class="margin-bottom-0"></textarea></div>
-									<div class="text-right"><button type="submit" name="enviar" class="button margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
-								</label>													
-							</div>                  		
-						</div>	
-						
 					</div>
+					
+					<div class="comentarios row column padding-top-1">
+						  <fieldset>
+								<legend>Escribe tus comentarios:</legend>
+								<textarea class="margin-bottom-0"></textarea>
+								<div class="text-right"><button type="submit" name="enviar" class="success button margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
+						  </fieldset>
+					</div>	
 					
 					<div class="usuario card">
 					
@@ -130,6 +155,7 @@
 
 						<div class="column small-12">							
 							<h4>Mute Santandereano</h4>
+							<strong style="color: forestgreen">27/12/2017, Bucaramanga</strong>
 							<img src="img/mute-santandereano.jpg">
 							<p class="text-justify margin-top-1">
 								El mute santandereano es una sopa tradicional colombiana del departamento de Santander situado en la parte centro-norte del país. Esta es una sopa muy espesa y con muchos ingredientes. Está cargada de carne, verduras, frijoles y pasta. Usted realmente no necesita nada más para tener una comida completa, pero a mí me gusta servir esta sopa con aguacate, arepa o arroz blanco!<br><br>
@@ -141,19 +167,13 @@
 						
 					</div>
 					
-					<div class="row">
-						
-						<div class="comentarios column small-12 padding-top-1">
-							<div>Escribe tus comentarios:</div>
-							<div>
-								<label>
-									<div><textarea class="margin-bottom-0"></textarea></div>
-									<div class="text-right"><button type="submit" name="enviar" class="button margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
-								</label>													
-							</div>                  		
-						</div>
-						
-					</div>
+					<div class="comentarios row column padding-top-1">
+						  <fieldset>
+								<legend>Escribe tus comentarios:</legend>
+								<textarea class="margin-bottom-0"></textarea>
+								<div class="text-right"><button type="submit" name="enviar" class="success button margin-top-0"><i class="step fi-pencil"></i> Publicar</button></div>
+						  </fieldset>
+					</div>				
 					
 					<div class="usuario card">
 					

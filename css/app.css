@@ -32,10 +32,14 @@
 	text-align: right;
 }
 
+/*clase para el contenedor*/
+.secciones {
+	border-top: solid 2px white;
+}
+
 /*clase de busqueda*/
 #busqueda {
-	background-color: blanchedalmond;
-	
+	background-color: blanchedalmond;	
 }
 
 /*clase de contenido*/
@@ -50,3 +54,5 @@
 .usuario {
 	background-color: lightgreen;
 }
+
+/*clase de imagenes*/
